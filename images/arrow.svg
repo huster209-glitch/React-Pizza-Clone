@@ -1,0 +1,9 @@
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36.000000" height="36.000000" fill="none" customFrame="#000000">
+	<rect id="arrow-down" width="36.000000" height="36.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+	<g id="vuesax/outline/arrow-down">
+		<g id="arrow-down">
+			<path id="Vector" d="M18 25.2C16.95 25.2 15.9 24.795 15.105 24L5.32503 14.22C4.89003 13.785 4.89003 13.065 5.32503 12.63C5.76003 12.195 6.48003 12.195 6.91503 12.63L16.695 22.41C17.415 23.13 18.585 23.13 19.305 22.41L29.085 12.63C29.52 12.195 30.24 12.195 30.675 12.63C31.11 13.065 31.11 13.785 30.675 14.22L20.895 24C20.1 24.795 19.05 25.2 18 25.2Z" fill="rgb(18,25,38)" fill-rule="nonzero" />
+			<path id="Vector" opacity="0" />
+		</g>
+	</g>
+</svg>

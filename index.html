@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Pizza</title>
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top">
+            <div class="left">
+                <div class="about">
+                    <img src="images/logo.svg" alt="PIZZA TIME!" width="50px">
+                    <div class="img">
+                        <h2>REACT PIZZA</h2>
+                        <p>лучшая пицца в вашем селе</p>
+                    </div>
+                </div>
+                <div class="input">
+                    <i class="fa-solid fa-search"></i>
+                    <input type="search" name="search" id="search" placeholder="Поиск...">
+                </div>
+            </div>
+            <div class="right">
+                <div class="shopping">
+                    <img src="images/shopping.png" alt="shopping cart" width="22px">
+                    <span>0 ₴ | 0</span>
+                </div>
+                <div class="account">
+                    <i class="fa-regular fa-user"></i>
+                    <h2>Личный кабинет</h2>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="tabs">
+                <div class="tab active">Все</div>
+                <div class="tab">Мясные</div>
+                <div class="tab">Сырные</div>
+                <div class="tab">Гриль</div>
+                <div class="tab">Вегетарианская</div>
+                <div class="tab">Острые</div>
+                <div class="tab">Закрытые</div>
+            </div>
+            <div class="filter-to">
+                <img src="images/arrow.svg" alt="Arrow down" width="20px">
+                <p>Сортировать по: </p>
+                <a href=""> популярности</a>
+                <div class="selection-of-filtering">
+                    <p>популярности</p>
+                    <p>новизне</p>
+                    <p>цене (сначала дешевые)</p>
+                    <p>цене (сначала дорогие)</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Все пиццы</h1>
+        <div class="pizzas">
+            
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

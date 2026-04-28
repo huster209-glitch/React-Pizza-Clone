@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fffbeb;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 328px;
+}
+
+.left {
+    display: flex;
+    gap: 50px;
+}
+
+.about {
+    display: flex;
+    gap: 5px;
+}
+
+.img p {
+    color: grey;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid darkgrey;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+#search {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.input:focus-within {
+    border: 2px solid black;
+}
+
+.input i {
+    width: 14px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+}
+
+.right div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 15px;
+    background-color: #f59e0b;
+    border-radius: 10px;
+}
+
+.shopping {
+    font-size: 18px;
+}
+
+.account {
+    font-size: 12px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 328px;
+}
+
+.tabs {
+    display: flex;
+    gap: 8px;
+}
+
+.tab {
+    border-radius: 10px;
+    background-color: #e7e5e4;
+    font-size: 20px;
+    padding: 15px 20px;
+    transition: 0.3s;
+}
+
+.active {
+    background-color: #44403c;
+    color: white;
+}
+
+.filter-to {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.selection-of-filtering {
+    position: absolute;
+    top: 35px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 23px 40px;
+    background-color: #fef3c7;
+    border-radius: 10px;
+}
+
+.selection-of-filtering p:hover {
+    color: #f8b424;
+    text-decoration: underline;
+}
+
+.filter-to a {
+    color: #f8b424;
+}
+
+main {
+    padding: 30px 328px;
+}
+
+.pizzas {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+.pizzas > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: dodgerblue; */
+    gap: 10px;
+    text-align: start;
+}
+
+.pizzas > div img {
+    margin: auto;
+}
+
+.choose {
+    background-color: #f5f5f4;
+    align-self: center;
+    padding: .125rem;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.active-choose {
+    background-color: #d6d3d1;
+    padding: 7.5px 22.5px;
+    border-radius: 8px;
+}
+
+.choose-span {
+    background-color: #f5f5f4;
+    padding: 7.5px 22.5px;
+    border-radius: 8px;
+}
+
+.dough {
+    background-color: #f5f5f4;
+    align-self: center;
+    padding: .125rem;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.active-dough {
+    background-color: #d6d3d1;
+    padding: 7.5px 22.5px;
+    border-radius: 8px;
+}
+
+.dough-span {
+    background-color: #f5f5f4;
+    padding: 7.5px 22.5px;
+    border-radius: 8px;
+}
+
+.pizzas > div > div > button {
+    background-color: #f59e0b;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 20px;
+    font-size: 16px;
+}
